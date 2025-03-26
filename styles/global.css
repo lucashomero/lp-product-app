@@ -15,7 +15,7 @@
 }
 
 :root {
-    --background-color: #09090B;
+    --bg-color: #09090B;
     --surface-color:#18181B ;
     --stroke-color: #27272A;
     --text-color-secondary:#A1A1AA ;
@@ -79,6 +79,14 @@ a {
     color: inherit;
 }
 
+a:hover {
+    background: linear-gradient(90deg, var(--brand-color-secondary) 0%, var(--brand-color-primary) 100%);
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
 /* Serve para retirar o ponto da lista, porem ainda funcionar a função de acessibilidade 
     Remove os bullets points padrão (como bolinhas) da lista.*/
 ul[role="list"]{
@@ -99,3 +107,5 @@ ul[role="list"]{
         --py-xl:5rem;
     }
 }
+
+
