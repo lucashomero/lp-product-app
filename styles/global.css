@@ -93,6 +93,11 @@ ul[role="list"]{
     list-style: none;
 }
 
+img {
+    max-width: 100%;
+    display: inline-block;
+}
+
 /* At Rule Media Queries para aplicar as funcionalidades na tela maior 1280px */
 @media (width >= 80em) {
     :root {
