@@ -26,7 +26,7 @@
 
     -webkit-background-clip: initial;
     background-clip: initial;
-    color: var(--surface-color);
+    color: var(--btn-color);
 }
 
 /* 
